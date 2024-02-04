@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tempconverter.css">
+</head>
 
+<body>
+   
+   <div class="wrapper">
+    <h1>Temperature Converter</h1>
+   <div class="boxes">
+        <div class="firstrow">
+            <input type="number" class="input" placeholder="Enter temparature " required>
+            <div class="rbtn">
+                
+               <div class="cdiv">
+                <input type="radio"  name="one"class="cbtn" id="cc">
+                <label for="cc">Celsius</label>
+               </div>
+                <div class="fdiv">
+                    <input type="radio" name="one" class="fbtn" id="ff">
+                <label for="ff">Farenheit</label>
+                </div>
+            </div>
+        </div>
+   </div>
+   <button class="convert">Convert</button>
+   <h1 class="output"></h1>
+  
+    <script src="./tempconverter.js"></script>
+</body>
+</html>
